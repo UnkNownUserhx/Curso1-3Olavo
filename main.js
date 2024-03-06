@@ -1,12 +1,11 @@
-const botoes = document.querySelectorAll(".botao");
-
-for(let i=0;i <botoes.length;i++){
-    botoes[i].onclick = function(){
-
-        for(let j=0;j<botoes.length;j++){
-            botoes[j].classList.remove("ativo");
-        }
-
-        botoes[i].classList.add("ativo");
-    }
-}
+const botao = document.querySelectorAll(".botao");
+`__________________________________`
+for (let i=0;i<botao.length;i++){
+ `__________________`
+    if(i==0){
+        fundo.classList.remove("fundo-branco");
+        fundo.classList.add("fundo-preto");
+    } else{
+      fundo.classList.remove("fundo-preto");
+     `__________________`
+    }  }  
