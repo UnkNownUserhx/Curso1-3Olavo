@@ -45,8 +45,7 @@ function atualizaCronometro(){
     document.getElementById("dias0").textContent = calculaTempo(tempos[1])[0];
     document.getElementById("horas0").textContent = calculaTempo(tempos[1])[1];  
     document.getElementById("min0").textContent = calculaTempo(tempos[1])[2];
-    document.getElementById("seg0").textContent = calculaTempo(tempos[1])[3];
-        contadores[i].textContent = calculaTempo(tempos[i]);   
+    document.getElementById("seg0").textContent = calculaTempo(tempos[1])[3];  
         for (let i=0; i<contadores.length;i++){
     }
 }
